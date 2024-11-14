@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sobre Depressão e Ansiedade</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f9;
+        }
+        .quiz-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .question p {
+            font-size: 18px;
+        }
+        .answers {
+            list-style-type: none;
+            padding: 0;
+        }
+        .answers li {
+            margin: 10px 0;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz sobre Depressão e Ansiedade</h1>
+
+        <!-- Perguntas -->
+        <div class="question">
+            <p><strong>1. Qual dos seguintes sintomas NÃO é comum na depressão?</strong></p>
+            <ul class="answers">
+                <li><input type="radio" name="q1" value="a"> Sentimentos de inutilidade ou culpa excessiva</li>
+                <li><input type="radio" name="q1" value="b"> Falta de interesse nas atividades diárias</li>
+                <li><input type="radio" name="q1" value="c"> Aumento da energia e entusiasmo</li>
+                <li><input type="radio" name="q1" value="d"> Dificuldade de concentração</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p><strong>2. A ansiedade pode se manifestar fisicamente de várias formas. Qual das opções a seguir é um sintoma físico comum de ansiedade?</strong></p>
+            <ul class="answers">
+                <li><input type="radio" name="q2" value="a"> Sentimentos de tristeza profunda</li>
+                <li><input type="radio" name="q2" value="b"> Tensão muscular ou dor no corpo</li>
+                <li><input type="radio" name="q2" value="c"> Aumento de apetite</li>
+                <li><input type="radio" name="q2" value="d"> Falta de sono</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p><strong>3. A "ansiedade generalizada" se caracteriza por:</strong></p>
+            <ul class="answers">
+                <li><input type="radio" name="q3" value="a"> Preocupações e medos intensos e excessivos com várias situações cotidianas</li>
+                <li><input type="radio" name="q3" value="b"> Episódios de pânico que surgem de repente</li>
+                <li><input type="radio" name="q3" value="c"> Medo intenso de lugares fechados</li>
+                <li><input type="radio" name="q3" value="d"> Desinteresse total pelas atividades sociais</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p><strong>4. A depressão pode ser desencadeada por uma série de fatores. Qual dos seguintes fatores é considerado um possível gatilho?</strong></p>
+            <ul class="answers">
+                <li><input type="radio" name="q4" value="a"> Estilo de vida saudável e equilibrado</li>
+                <li><input type="radio" name="q4" value="b"> Perda de um ente querido</li>
+                <li><input type="radio" name="q4" value="c"> Realização de conquistas pessoais e profissionais</li>
+                <li><input type="radio" name="q4" value="d"> Práticas de meditação e mindfulness</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p><strong>5. Qual desses comportamentos é frequentemente associado à depressão?</strong></p>
+            <ul class="answers">
+                <li><input type="radio" name="q5" value="a"> Dormir em excesso ou insônia</li>
+                <li><input type="radio" name="q5" value="b"> Buscar constantemente novas atividades e estímulos</li>
+                <li><input type="radio" name="q5" value="c"> Participar ativamente de eventos sociais</li>
+                <li><input type="radio" name="q5" value="d"> Aumento da energia e entusiasmo</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p><strong>6. Qual dessas condições pode agravar os sintomas da ansiedade?</strong></p>
+            <ul class="answers">
+                <li><input type="radio" name="q6" value="a"> Práticas de relaxamento</li>
+                <li><input type="radio" name="q6" value="b"> Consumo excessivo de cafeína</li>
+                <li><input type="radio" name="q6" value="c"> Exercício físico regular</li>
+                <li><input type="radio" name="q6" value="d"> Terapia cognitivo-comportamental</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p><strong>7. Qual dos seguintes pode ser um sintoma comum de um ataque de pânico?</strong></p>
+            <ul class="answers">
+                <li><input type="radio" name="q7" value="a"> Sentimento de desmaio ou tontura</li>
+                <li><input type="radio" name="q7" value="b"> Sentimentos de felicidade intensa</li>
+                <li><input type="radio" name="q7" value="c"> Apetite aumentado</li>
+                <li><input type="radio" name="q7" value="d"> Relaxamento extremo</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p><strong>8. O que é considerado um fator de risco importante para a depressão?</strong></p>
+            <ul class="answers">
+                <li><input type="radio" name="q8" value="a"> Ter um histórico familiar de depressão</li>
+                <li><input type="radio" name="q8" value="b"> Viver em um ambiente muito alegre e estimulante</li>
+                <li><input type="radio" name="q8" value="c"> Ter um histórico de bons relacionamentos sociais</li>
+                <li><input type="radio" name="q8" value="d"> Praticar meditação regularmente</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p><strong>9. A ansiedade pode ser tratada com:</strong></p>
+            <ul class="answers">
+                <li><input type="radio" name="q9" value="a"> Terapia psicológica e, em alguns casos, medicação</li>
+                <li><input type="radio" name="q9" value="b"> Apenas com remédios para controlar os sintomas</li>
+                <li><input type="radio" name="q9" value="c"> Apenas com técnicas de respiração profunda</li>
+                <li><input type="radio" name="q9" value="d"> Nenhuma das alternativas anteriores</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p><strong>10. Qual é a principal diferença entre a ansiedade normal e a ansiedade patológica?</strong></p>
+            <ul class="answers">
+                <li><input type="radio" name="q10" value="a"> A ansiedade normal não interfere nas atividades diárias, enquanto a patológica pode prejudicar a vida cotidiana.</li>
+                <li><input type="radio" name="q10" value="b"> A ansiedade patológica é sempre provocada por grandes traumas.</li>
+                <li><input type="radio" name="q10" value="c"> A ansiedade normal não provoca sintomas físicos.</li>
+                <li><input type="radio" name="q10" value="d"> A ansiedade patológica é sempre temporária e desaparece sem tratamento.</li>
+            </ul>
+        </div>
+
+        <button onclick="submitQuiz()">Enviar Respostas</button>
+
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        function submitQuiz() {
+            let score = 0;
+
+            // Respostas corretas:
+            const correctAnswers = {
+                q1: 'c', // Aumento da energia e entusiasmo
+                q2: 'b', // Tensão muscular ou dor no corpo
+                q3: 'a', // Preocupações e medos intensos e excessivos
+                q4: 'b', // Perda de um ente querido
+                q5: 'a', // Dormir em excesso ou insônia
+                q6: 'b', // Consumo excessivo de cafeína
+                q7: 'a', // Sentimento de desmaio ou tontura
+                q8: 'a', // Ter um histórico familiar de depressão
+                q9: 'a', // Terapia psicológica e, em alguns casos, medicação
+                q10: 'a' // A ansiedade normal não interfere nas atividades diárias, enquanto a patológica pode prejudicar a vida cotidiana.
+            };
+
+            // Verificar respostas:
+            for (let i = 1; i <= 10; i++) {
+                let selected = document.querySelector(`input[name="q${i}"]:checked`);
+                if (selected && selected.value === correctAnswers[`q${i}`]) {
+                    score++;
+                }
+            }
+
+            // Exibir resultado:
+            const result = document.getElementById('result');
+            if (score === 10) {
+                result.innerHTML = "Você acertou todas as respostas! Parabéns!";
+            } else {
+                result.innerHTML = `Você acertou ${score} de 10.`;
+            }
+        }
+    </script>
+</body>
+</html>
